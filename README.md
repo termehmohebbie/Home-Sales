@@ -42,6 +42,6 @@ What is the "view" rating for homes costing more than or equal to $350,000? Dete
 ### Runtime for different methods
 * Uncached : 0.9923596382141113 seconds
 * Cached : 0.557523250579834 seconds
-* Parquet : 0.9352474212646484 seconds
+* Parquet Partitioned : 0.9352474212646484 seconds
 
 This analysis shows that using cached data or the parquet data frame, we can have faster runtime as compared to querying the original data.
